@@ -1,6 +1,6 @@
 
 $("#submit").click( a => {
-    let email = $("#email").val();
+    let email = $("#email").value();
     let pass = $("#pass").val();
 
     $("#emailData").html(email);
